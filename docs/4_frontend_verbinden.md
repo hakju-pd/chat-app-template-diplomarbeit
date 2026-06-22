@@ -71,7 +71,7 @@ export const API_URL = "http://localhost:5001";
 
 ---
 
-## Schritt 3 – Registrieren (`app/index.tsx`)
+## Schritt 2 – Registrieren (`app/index.tsx`)
 
 Öffne `frontend/app/index.tsx`. Ersetze die Funktion `handleRegister` durch:
 
@@ -96,7 +96,7 @@ async function handleRegister() {
 
 ---
 
-## Schritt 4 – Einloggen (`app/index.tsx`)
+## Schritt 3 – Einloggen (`app/index.tsx`)
 
 Beim Login bekommen wir einen `access_token`. Den speichern wir mit
 `setToken(...)` (aus `session.ts`) und wechseln zur Raum-Liste.
@@ -125,7 +125,7 @@ async function handleLogin() {
 
 ---
 
-## Schritt 5 – Räume laden (`app/rooms.tsx`)
+## Schritt 4 – Räume laden (`app/rooms.tsx`)
 
 Öffne `frontend/app/rooms.tsx`. Ersetze die Funktion `ladeRaeume`
 (innerhalb von `useEffect`) durch:
@@ -144,7 +144,7 @@ async function ladeRaeume() {
 
 ---
 
-## Schritt 6 – Nachrichten laden (`app/chat.tsx`)
+## Schritt 5 – Nachrichten laden (`app/chat.tsx`)
 
 Öffne `frontend/app/chat.tsx`. Ersetze die Funktion `laden` durch:
 
@@ -162,7 +162,7 @@ async function laden() {
 
 ---
 
-## Schritt 7 – Nachricht senden (`app/chat.tsx`)
+## Schritt 6 – Nachricht senden (`app/chat.tsx`)
 
 Das ist eine **geschützte** Route. Wichtig: Wir schicken den Token
 (mit `getToken()` aus `session.ts`) im `Authorization`-Header mit!
@@ -195,7 +195,7 @@ async function senden() {
 
 ---
 
-## Schritt 8 – App starten und ausprobieren
+## Schritt 7 – App starten und ausprobieren
 
 1. Stelle sicher, dass das **Backend läuft** (Terminal aus Schritt 2).
 2. Neues Terminal, in den Frontend-Ordner gehen:
