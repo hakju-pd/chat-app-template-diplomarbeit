@@ -3,6 +3,11 @@
 Supabase ist unsere Datenbank in der Cloud. Hier legen wir das Projekt an
 und erstellen die Tabellen.
 
+# Methode 1: Gemeinsame Datenbank
+Die Keys für die Gemeinsame Datenbank könnt ihr von Prof Diethard holen.
+
+# Methode 2: Eigene Datenbank
+
 ## 1.1 Projekt erstellen
 
 1. Gehe auf [https://supabase.com](https://supabase.com) und logge dich ein
