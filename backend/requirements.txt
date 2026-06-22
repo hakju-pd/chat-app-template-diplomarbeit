@@ -1,0 +1,10 @@
+# Python-Pakete für das Backend.
+# Installieren mit:   pip install -r requirements.txt
+
+flask>=3.0
+flask-cors>=4.0
+supabase>=2.0,<3.0
+python-dotenv>=1.0
+requests>=2.30
+pytest>=8.0
+dotenv>=1.0

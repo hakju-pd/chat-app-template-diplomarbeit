@@ -1,0 +1,21 @@
+# Geheime Daten – NIEMALS hochladen!
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Node / Expo
+node_modules/
+.expo/
+dist/
+web-build/
+
+# Betriebssystem
+.DS_Store
+
+# ignore frontend_solutions
+frontend_solution/
